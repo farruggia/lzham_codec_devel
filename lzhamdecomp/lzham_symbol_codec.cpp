@@ -1,8 +1,8 @@
 // File: lzham_symbol_codec.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
-#include "lzham_symbol_codec.h"
-#include "lzham_huffman_codes.h"
+#include <lzham_core.h>
+#include <lzham_symbol_codec.h>
+#include <lzham_huffman_codes.h>
 
 // Was 16 in previous versions.
 #define LZHAM_DEFAULT_MAX_UPDATE_INTERVAL 64

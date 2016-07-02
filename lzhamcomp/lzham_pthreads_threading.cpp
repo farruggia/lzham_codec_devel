@@ -1,8 +1,8 @@
 // File: lzham_task_pool_pthreads.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
+#include <lzham_core.h>
 #include "lzham_pthreads_threading.h"
-#include "lzham_timer.h"
+#include <lzham_timer.h>
 
 #ifdef WIN32
 #include <process.h>

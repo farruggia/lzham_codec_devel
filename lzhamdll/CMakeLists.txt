@@ -46,7 +46,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} ${GCC_COMPILE_FLAGS} -D_DEBU
 include_directories(
 	${PROJECT_SOURCE_DIR}/../lzhamdecomp
     ${PROJECT_SOURCE_DIR}/../lzhamcomp
-	${PROJECT_SOURCE_DIR}/../include)
+	${PROJECT_SOURCE_DIR}/../include/lzham)
 
 #set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin_linux)
 

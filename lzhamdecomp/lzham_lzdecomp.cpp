@@ -5,11 +5,11 @@
 // http://www.chiark.greenend.org.uk/~sgtatham/coroutines.html
 // Also see "Protothreads - Lightweight, Stackless Threads in C":
 // http://www.sics.se/~adam/pt/
-#include "lzham_core.h"
-#include "lzham_decomp.h"
-#include "lzham_symbol_codec.h"
-#include "lzham_checksum.h"
-#include "lzham_lzdecompbase.h"
+#include <lzham_core.h>
+#include <lzham_decomp.h>
+#include <lzham_symbol_codec.h>
+#include <lzham_checksum.h>
+#include <lzham_lzdecompbase.h>
 
 using namespace lzham;
 

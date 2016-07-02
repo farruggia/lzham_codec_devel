@@ -1,7 +1,7 @@
 // File: lzham_timer.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
-#include "lzham_timer.h"
+#include <lzham_core.h>
+#include <lzham_timer.h>
 
 #ifndef LZHAM_USE_WIN32_API
    #include <time.h>

@@ -1,7 +1,7 @@
 // File: lzham_lzcomp.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
-#include "lzham.h"
+#include <lzham_core.h>
+#include <lzham.h>
 #include "lzham_comp.h"
 #include "lzham_lzcomp_internal.h"
 

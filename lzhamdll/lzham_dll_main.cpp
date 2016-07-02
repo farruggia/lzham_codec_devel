@@ -1,6 +1,6 @@
 // File: lzham_dll_main.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
+#include <lzham_core.h>
 
 #if !LZHAM_ANSI_CPLUSPLUS
 

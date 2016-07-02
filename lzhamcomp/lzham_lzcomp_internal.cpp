@@ -1,9 +1,9 @@
 // File: lzham_lzcomp_internal.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
+#include <lzham_core.h>
 #include "lzham_lzcomp_internal.h"
-#include "lzham_checksum.h"
-#include "lzham_timer.h"
+#include <lzham_checksum.h>
+#include <lzham_timer.h>
 #include "lzham_lzbase.h"
 #include <string.h>
 

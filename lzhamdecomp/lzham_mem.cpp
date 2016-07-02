@@ -1,6 +1,6 @@
 // File: lzham_mem.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
+#include <lzham_core.h>
 
 #ifdef __APPLE__
    #include <malloc/malloc.h>

@@ -24,11 +24,11 @@ set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -Wextra -O3 -fomit
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -Wextra")
 
 set(SRC_LIST 
-    ../include/lzham_dynamic_lib.h
-    ../include/lzham_static_lib.h
-    ../include/lzham.h
-    ../include/lzham_exports.inc
-    ../include/zlib.h
+    ../include/lzham/lzham_dynamic_lib.h
+    ../include/lzham/lzham_static_lib.h
+    ../include/lzham/lzham.h
+    ../include/lzham/lzham_exports.inc
+    ../include/lzham/zlib.h
     lzham_assert.cpp       
     lzham_assert.h         
     lzham_checksum.cpp     
@@ -78,7 +78,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} ${GCC_COMPILE_FLAGS} -D_DEBU
 
 include_directories(
 	${PROJECT_SOURCE_DIR}/../lzhamdecomp 
-	${PROJECT_SOURCE_DIR}/../include)
+	${PROJECT_SOURCE_DIR}/../include/lzham)
 
 #set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin_linux)
 

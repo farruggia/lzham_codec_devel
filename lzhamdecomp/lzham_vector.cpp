@@ -1,7 +1,7 @@
 // File: lzham_vector.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
-#include "lzham_vector.h"
+#include <lzham_core.h>
+#include <lzham_vector.h>
 
 namespace lzham
 {

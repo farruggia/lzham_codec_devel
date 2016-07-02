@@ -1,8 +1,8 @@
 // File: lzham_match_accel.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
+#include <lzham_core.h>
 #include "lzham_match_accel.h"
-#include "lzham_timer.h"
+#include <lzham_timer.h>
 
 static const int cHashSize24 = 0x1000000;
 static const int cHashSize16 = 0x10000;

@@ -1,9 +1,9 @@
 // File: lzham_task_pool_win32.cpp
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
-#include "lzham_win32_threading.h"
-#include "lzham_timer.h"
-#include "lzham_lzcomp_internal.h"
+#include <lzham_core.h>
+#include <lzham_win32_threading.h>
+#include <lzham_timer.h>
+#include <lzham_lzcomp_internal.h>
 #include <process.h>
 
 #if LZHAM_USE_WIN32_API

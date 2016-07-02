@@ -1,8 +1,8 @@
 // File: lzham_api.cpp - Dynamic DLL entrypoints.
 // See Copyright Notice and license at the end of include/lzham.h
-#include "lzham_core.h"
-#include "lzham_decomp.h"
-#include "lzham_comp.h"
+#include <lzham_core.h>
+#include <lzham_decomp.h>
+#include <lzham_comp.h>
 
 extern "C" LZHAM_DLL_EXPORT lzham_uint32 lzham_get_version(void)
 {
